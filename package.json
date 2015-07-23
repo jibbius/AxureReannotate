@@ -1,21 +1,21 @@
 {
-  "name": "redpuppy",
+  "name": "axure-reannotate",
   "version": "1.0.0",
-  "description": "iConnect Plus",
+  "description": "AxureReannotate",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jibbius/RedPuppy.git"
+    "url": "git+https://github.com/jibbius/AxureReannotate.git"
   },
   "author": "Jack Barker",
   "license": "n/a",
   "bugs": {
-    "url": "https://github.com/jibbius/RedPuppy/issues"
+    "url": "https://github.com/jibbius/AxureReannotate/issues"
   },
-  "homepage": "https://github.com/jibbius/RedPuppy#readme",
+  "homepage": "https://github.com/jibbius/AxureReannotate#readme",
   "devDependencies": {
     "bower": "^1.4.1"
   }

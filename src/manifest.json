@@ -5,20 +5,11 @@
   "author": "Jack Barker",
   "version": "0.1",
   
-  "description": "Reannotates Axure Output on the Space01 website",
-//  "icons":
-//    {
-//      "32": "iCPlus_32.png",
-//      "128": "iCPlus_128.png"
-//    },
-//
-//  "browser_action": {
-//    "default_icon": "iCPlus_32.png"
-//  },
+  "description": "Reannotates Axure Output on the website",
+
   "content_security_policy": "script-src 'self'; object-src 'self'",
   "content_scripts": [
     {
-//      "run_at": "document_end",
       "matches": ["http://demo.space01.co.uk/*"],
       "js": [
         "lib/bower_components/jquery/dist/jquery.min.js",
