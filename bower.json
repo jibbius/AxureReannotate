@@ -1,0 +1,20 @@
+{
+  "name": "axureReannotate",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jibbius/axureReannotate",
+  "authors": [
+    "Jack Barker <jack.barker.au@gmail.com>"
+  ],
+  "license": "n/a",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/lib/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1"
+  }
+}
