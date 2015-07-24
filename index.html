@@ -20,8 +20,14 @@ figure.axure-reannotate a {
 <body>
 <div class="page-wrapper">
 <figure class="axure-reannotate">
+    <a href="javascript:(function(){var iframe=document.getElementById('mainFrame');var innerDoc=iframe.contentDocument || iframe.contentWindow.document;var head=innerDoc.getElementsByTagName('head')[0];var link=innerDoc.createElement('link');link.rel='stylesheet';link.type='text/css';link.href='https://rawgithub.com/jibbius/AxureReannotate/master/src/css/axureReannotate.css';link.media='all';head.appendChild(link);var annoID=1;var annoArray; var annoArray = new Array;jQuery('#mainFrame').contents().find('div.annnoteimage').each(function(){var that = jQuery(this);annoArray.push( [that.offset().top , that[0].id]);});annoArray.sort(function(a, b){return a[0]-b[0]});var anno;while(anno = annoArray.pop()){jQuery('#mainFrame').contents().find('#'+anno[1]).html('<INPUT VALUE=\''+(annoArray.length+1)+'\'></INPUT>');}})();"
+       title="Axure Reannotate">Axure Reannotate v1.1</a>
+    <figcaption>Drag me to your bookmarks bar</figcaption>
+</figure>
+
+<figure class="axure-reannotate">
     <a href="javascript:(function(){var iframe=document.getElementById('mainFrame');var innerDoc=iframe.contentDocument || iframe.contentWindow.document;var head=innerDoc.getElementsByTagName('head')[0];var link=innerDoc.createElement('link');link.rel='stylesheet';link.type='text/css';link.href='https://rawgithub.com/jibbius/AxureReannotate/master/src/css/axureReannotate.css';link.media='all';head.appendChild(link);annoID=1;jQuery('#mainFrame').contents().find('div.annnoteimage').each(function(){$(this).html(annoID);annoID+=1;});})();"
-       title="Axure Reannotate">Axure Reannotate</a>
+       title="Axure Reannotate">Axure Reannotate v1.0</a>
     <figcaption>Drag me to your bookmarks bar</figcaption>
 </figure>
 </div>
