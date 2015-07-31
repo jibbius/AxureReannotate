@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Axure Reannotate</title>
-	<link rel="icon" type="image/x-icon" href="//raw.githubusercontent.com/jibbius/AxureReannotate/master/favicon.ico" />
-    <link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link rel="icon" type="image/png" href="http://raw.githubusercontent.com/jibbius/AxureReannotate/master/favicon.png" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <style>
 figure.axure-reannotate a {
     display: inline-block;
@@ -16,17 +16,26 @@ figure.axure-reannotate a {
     background: #ecf626;
     color: #c524dc;
 }
+figure.axure-reannotate.version-current a {
+    background: #ecf626;
+    color: #c524dc;
+}
+figure.axure-reannotate.version-old a {
+    background: #ececec;
+    color: #353535;
+	border-color: #353535;
+}
     </style>
 </head>
 <body>
 <div class="page-wrapper">
-<figure class="axure-reannotate">
+<figure class="axure-reannotate version-current">
     <a href="javascript:(function(){var iframe=document.getElementById('mainFrame');var innerDoc=iframe.contentDocument || iframe.contentWindow.document;var head=innerDoc.getElementsByTagName('head')[0];var link=innerDoc.createElement('link');link.rel='stylesheet';link.type='text/css';link.href='https://rawgithub.com/jibbius/AxureReannotate/master/src/css/axureReannotate.css';link.media='all';head.appendChild(link);var annoID=1;var annoArray; var annoArray = new Array;jQuery('#mainFrame').contents().find('div.annnoteimage').each(function(){var that = jQuery(this);annoArray.push( [that.offset().top , that[0].id]);});annoArray.sort(function(a, b){return a[0]-b[0]});var anno;while(anno = annoArray.pop()){jQuery('#mainFrame').contents().find('#'+anno[1]).html('<INPUT VALUE=\''+(annoArray.length+1)+'\'></INPUT>');}})();"
        title="Axure Reannotate">Axure Reannotate v1.1</a>
     <figcaption>Drag me to your bookmarks bar</figcaption>
 </figure>
 
-<figure class="axure-reannotate">
+<figure class="axure-reannotate version-old">
     <a href="javascript:(function(){var iframe=document.getElementById('mainFrame');var innerDoc=iframe.contentDocument || iframe.contentWindow.document;var head=innerDoc.getElementsByTagName('head')[0];var link=innerDoc.createElement('link');link.rel='stylesheet';link.type='text/css';link.href='https://rawgithub.com/jibbius/AxureReannotate/master/src/css/axureReannotate.css';link.media='all';head.appendChild(link);annoID=1;jQuery('#mainFrame').contents().find('div.annnoteimage').each(function(){$(this).html(annoID);annoID+=1;});})();"
        title="Axure Reannotate">Axure Reannotate v1.0</a>
     <figcaption>Drag me to your bookmarks bar</figcaption>
